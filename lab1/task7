@@ -1,0 +1,4 @@
+#!/bin/bash
+grep -ishREo "[A-Za-z0-9\.\_]+@[A-Za-z]+\.[A-Za-z]{2,3}" /etc/ |
+awk '{ printf{"%s, ", $1)}' > emails.lst
+cat emails.lst
