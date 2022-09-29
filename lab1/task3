@@ -1,0 +1,17 @@
+#!/bin/bash
+echo "Select one of these comands"
+echo "1 - nano"
+echo "2 - vi"
+echo "3 - links"
+echo "4 - Exit from menu"
+read a
+case "$a" in 
+1) nano
+;;
+2) vi
+;;
+3) links
+;;
+4) exit
+;;
+esac
