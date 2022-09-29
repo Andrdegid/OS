@@ -1,0 +1,3 @@
+#!/bin/bash
+grep "[^\]*\sINFO" /var/log/anaconda/syslog > info.log
+cat info.log
