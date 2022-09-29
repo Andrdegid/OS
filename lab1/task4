@@ -1,0 +1,5 @@
+#!/bin/bash
+if [[ $HOME == $PWD ]]
+then echo "$HOME"; exit 0;
+else echo "No-no-no, homie! It's error!"; exit 1;
+fi
